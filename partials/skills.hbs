@@ -1,17 +1,23 @@
 {{#if resume.skills}}
-    <section class="skills-section section">
-        <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+    <section class="interests-container container-block">
+        <h2 class="container-block-title"><i class="fa fa-rocket"></i> Compétences</h2>
         <div class="skillset">
-            {{#resume.skills}}
-                <div class="item">
-                    <h3 class="level-title">{{name}}</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="{{skillLevel level}}">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
-            {{/resume.skills}}
-
+            {{#each resume.skills}}
+    <div class="item">
+        {{#if name}}
+        <div class="list-unstyled interests-list">
+            {{name}}
+        </div>
+        {{#if keywords.length}}
+        <div class="keywords">
+            {{#each keywords}}
+            <span class="label label-default">{{.}}</span>
+            {{/each}}
+        </div>
+        {{/if}}
+        {{/if}}
+    </div>
+    {{/each}}
         </div>
     </section><!--//skills-section-->
 {{/if}}

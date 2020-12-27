@@ -1,10 +1,12 @@
 {{#if resume.languages}}
     <div class="languages-container container-block">
-        <h2 class="container-block-title">Languages</h2>
-        <ul class="list-unstyled interests-list">
-            {{#resume.languages}}
-                <li>{{language}} <span class="lang-desc">({{fluency}})</span></li>
-            {{/resume.languages}}
-        </ul>
+        <h2 class="container-block-title"><i class="fa fa-bullhorn"></i> Langues</h2>
+        {{#if resume.languages.length}}
+        <div class="keywords">
+            {{#each resume.languages}}
+            <span class="label label-default">{{language}}</span>
+            {{/each}}
+        </div>
+        {{/if}}
     </div><!--//interests-->
 {{/if}}

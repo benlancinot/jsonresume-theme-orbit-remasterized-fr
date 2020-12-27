@@ -30,23 +30,24 @@
       "name": "Startup Hubs",
       "location": "San Francisco",
       "position": "Lead Developer",
-      "startDate": "2015-12-01",
+      "startDate": "Sept. 2015",
+      "endDate": "Présent",
       "summary": "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
     },
     {
       "name": "Google",
       "location": "London",
       "position": "Senior Software Engineer",
-      "startDate": "2014-03-01",
-      "endDate": "2015-11-01",
+      "startDate": "Févr. 2014",
+      "endDate": "Juill. 2015",
       "summary": "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
     },
     {
       "name": "Amazon",
       "location": "London",
       "position": "UI Developer",
-      "startDate": "2012-05-01",
-      "endDate": "2014-02-28",
+      "startDate": "Mars 2012",
+      "endDate": "Avr. 2014",
       "summary": "Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
     }
   ],
@@ -98,29 +99,42 @@
   ],
   "skills": [
     {
-      "name": "Python & Django",
-      "level": "98%"
-    },
-    {
-      "name": "Javascript & jQuery",
-      "level": "98%"
-    },
-    {
-      "name": "Angular",
-      "level": "98%"
-    },
-    {
-      "name": "HTML5 & CSS",
-      "level": "95%"
-    },
-    {
-      "name": "Ruby on Rails",
-      "level": "85%"
-    },
-    {
-      "name": "Sketch & Photoshop",
-      "level": "60%"
-    }
+            "name": "Developpement",
+            "level": "advanced",
+            "keywords": [
+                "Golang",
+                "Java",
+                "C",
+                "Shell",
+                "SQL"
+            ]
+        },
+        {
+            "name": "DevOps",
+            "level": "advanced",
+            "keywords": [
+                "Docker",
+                "Kubernetes",
+                "Helm",
+                "Docker-compose",
+                "Github",
+                "Gitlab",
+                "Gitlab-CI"
+            ]
+        },
+        {
+            "name": "Technologies",
+            "level": "advanced",
+            "keywords": [
+                "PostgreSQL",
+                "MySQL",
+                "ElasticSearch",
+                "ETCD",
+                "Kafka",
+                "Badger",
+                "NATS"
+            ]
+        }
   ],
   "languages": [
     {
