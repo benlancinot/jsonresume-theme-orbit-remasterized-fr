@@ -95,7 +95,7 @@ p {
         }
     }
     .container-block {
-        padding: 23px;
+        padding: 18px;
     }
     .container-block-title {
         text-transform: uppercase;
@@ -133,7 +133,6 @@ p {
             color: rgba(256, 256, 256, 0.6);
         }
     }
-
     .languages-list {
         margin-bottom: 0;
         li {
@@ -143,13 +142,30 @@ p {
             }
         }
     }
-
-    .interests-list {
-        margin-bottom: 0;
-        li {
+    .interests-container {
+        .keywords {
+            .label {
+                color: @theme-color !important;
+                background: @smoky-white !important;
+                line-height: 1.9rem;
+            }
+        }
+    }
+    .skills-container {
+        .item {
             margin-bottom: 10px;
-            &:last-child {
-                margin-bottom: 0;
+            overflow: hidden;
+        }
+        .level-title {
+            font-size: 14px;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        .keywords {
+            .label {
+                color: @theme-color !important;
+                background: @smoky-white !important;
+                line-height: 1.9rem;
             }
         }
     }
@@ -187,8 +203,8 @@ p {
     .section {
         margin-bottom: 0px;
     }
-
     .experiences-section {
+         margin-top: 25px;
         .item {
             margin-bottom: 30px;
         }
@@ -215,7 +231,6 @@ p {
         margin-bottom: 10px;
         color: @text-grey;
     }
-
     .project-title {
         font-size: 16px;
         font-weight: 400;
@@ -229,27 +244,5 @@ p {
         .item {
             margin-bottom: 15px;
         }
-    }
-
-}
-
-
-.skillset {
-    .item {
-        margin-bottom: 15px;
-        overflow: hidden;
-    }
-    .level-title {
-        font-size: 14px;
-        margin-top: 0;
-        margin-bottom: 12px;
-    }
-    .level-bar {
-        height: 12px;
-        background: @smoky-white;
-    }
-    .level-bar-inner {
-        height: 12px;
-        background: lighten(@theme-color, 15%);
     }
 }

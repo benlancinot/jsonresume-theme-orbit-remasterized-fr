@@ -102,7 +102,7 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding: 23px;
+  padding: 18px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -145,14 +145,24 @@ p {
 .sidebar-wrapper .languages-list li:last-child {
   margin-bottom: 0;
 }
-.sidebar-wrapper .interests-list {
-  margin-bottom: 0;
+.sidebar-wrapper .interests-container .keywords .label {
+  color: #42A8C0 !important;
+  background: #f5f5f5 !important;
+  line-height: 1.9rem;
 }
-.sidebar-wrapper .interests-list li {
+.sidebar-wrapper .skills-container .item {
   margin-bottom: 10px;
+  overflow: hidden;
 }
-.sidebar-wrapper .interests-list li:last-child {
-  margin-bottom: 0;
+.sidebar-wrapper .skills-container .level-title {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.sidebar-wrapper .skills-container .keywords .label {
+  color: #42A8C0 !important;
+  background: #f5f5f5 !important;
+  line-height: 1.9rem;
 }
 .main-wrapper {
   background: #fff;
@@ -193,6 +203,9 @@ p {
 .main-wrapper .section {
   margin-bottom: 0px;
 }
+.main-wrapper .experiences-section {
+  margin-top: 25px;
+}
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
 }
@@ -229,23 +242,6 @@ p {
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
-}
-.skillset .item {
-  margin-bottom: 15px;
-  overflow: hidden;
-}
-.skillset .level-title {
-  font-size: 14px;
-  margin-top: 0;
-  margin-bottom: 12px;
-}
-.skillset .level-bar {
-  height: 12px;
-  background: #f5f5f5;
-}
-.skillset .level-bar-inner {
-  height: 12px;
-  background: #7bc2d3;
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {

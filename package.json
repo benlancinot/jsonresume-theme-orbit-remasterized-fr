@@ -1,20 +1,51 @@
 {
-  "name": "jsonresume-theme-orbit",
-  "version": "1.0.3",
-  "description": "Theme for JSON Resume based on Orbit design by xriley",
-  "author": "XuluWarrior",
+  "name": "jsonresume-theme-orbit-remasterized-fr",
+  "version": "1.0.1",
+  "description": "Theme for JSON Resume based on XuluWarrior design itself based on Orbit design by xriley",
+  "author": "blancinot",
   "repository": {
     "type": "git",
-    "url": "https://github.com/XuluWarrior/jsonresume-theme-orbit.git"
+    "url": "https://github.com/blancinot/jsonresume-theme-orbit-remasterized-fr.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/XuluWarrior/jsonresume-theme-orbit/issues"
+    "url": "https://github.com/blancinot/jsonresume-theme-orbit-remasterized-fr/issues"
   },
-  "homepage": "https://github.com/XuluWarrior/jsonresume-theme-orbit",
+  "homepage": "https://github.com/blancinot/jsonresume-theme-orbit-remasterized-fr#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "dependencies": {
+    "copy-anything": "^2.0.1",
+    "errno": "^0.1.8",
+    "graceful-fs": "^4.2.4",
+    "handlebars": "^4.7.6",
+    "handlebars-utils": "^1.0.6",
+    "image-size": "^0.5.5",
+    "is-buffer": "^1.1.6",
+    "is-what": "^3.12.0",
+    "kind-of": "^6.0.3",
+    "less": "^3.13.1",
+    "make-dir": "^2.1.0",
+    "marked": "^0.7.0",
+    "mime": "^1.6.0",
+    "native-request": "^1.0.8",
+    "pify": "^4.0.1",
+    "prr": "^1.0.1",
+    "semver": "^5.7.1",
+    "source-map": "^0.6.1",
+    "tslib": "^1.14.1",
+    "typeof-article": "^0.1.1",
+    "uglify-js": "^3.12.3",
+    "wordwrap": "^1.0.0"
+  },
+  "devDependencies": {
+    "less": "^3.9.0"
+  },
   "scripts": {
     "serve": "resume serve --resume=example-resume.json",
-    "build:example": "resume export example-resume.html --resume=example-resume.json --force",
+    "build:example": "resume export resume.html --resume=example-resume.json",
     "build:styles": "lessc assets/less/default/styles.less assets/css/styles.css",
     "build:styles:2": "lessc assets/less/theme-2/styles.less assets/css/styles.css",
     "build:styles:3": "lessc assets/less/theme-3/styles.less assets/css/styles.css",
@@ -23,16 +54,12 @@
     "build:styles:6": "lessc assets/less/theme-6/styles.less assets/css/styles.css",
     "release:prepare": "git checkout master && git pull && npm version patch -m \"Release: %s\""
   },
-  "dependencies": {
-    "handlebars": "^4.1.2",
-    "handlebars-utils": "^1.0.6",
-    "marked": "^0.7.0"
-  },
-  "devDependencies": {
-    "less": "^3.9.0"
-  },
-  "engineStrict": true,
-  "engines": {
-    "node": ">=6"
-  }
+  "keywords": [
+    "json",
+    "resume",
+    "jsonresume",
+    "json-resume",
+    "orbit",
+    "orbit-fr"
+  ]
 }

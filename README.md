@@ -1,9 +1,10 @@
 # JSON Resume Orbit Theme
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/XuluWarrior/jsonresume-theme-orbit)
 
-This is a theme for [JSON Resume](http://jsonresume.org/) based on [Orbit design](https://github.com/xriley/Orbit-Theme) by [xriley](https://github.com/xriley).
+This is a theme for [JSON Resume](http://jsonresume.org/) based on [XuluWarrior design](https://github.com/XuluWarrior/jsonresume-theme-orbit) itself based on [Orbit design](https://github.com/xriley/Orbit-Theme) by [xriley](https://github.com/xriley).
 This version includes more sections than in the original design and also changes a couple of section titles.
 For a template that implements the original design see [jsonresume-theme-orbit-original](https://github.com/XuluWarrior/jsonresume-theme-orbit-original).
+
 
 ## Getting started
 
@@ -17,7 +18,7 @@ sudo npm install -g resume-cli
 
 ### Serve theme
 ```
-resume serve --theme orbit --resume <path_to_resume.json>
+resume serve --resume <path_to_resume.json>
 ```
 
 You should now see this message:
@@ -32,8 +33,8 @@ The resume should open in a new tab in your default browser
 ## Editing template
 ### Get source from GitHub
 ```
-git clone https://github.com/XuluWarrior/jsonresume-theme-orbit.git
-cd jsonresume-theme-orbit
+git clone https://github.com/blancinot/jsonresume-theme-orbit-remasterized-fr.git
+cd jsonresume-theme-orbit-remasterized-fr
 ```
 
 ### Serve theme
